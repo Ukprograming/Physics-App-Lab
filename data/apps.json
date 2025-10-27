@@ -2,7 +2,7 @@
   {
     "id": "Video-Motion-Track",
     "title": "動画運動解析",
-    "description": "撮影した動画をアップロードし、運動を追跡できます。",
+    "description": "動画をアップロードして物体の運動を追跡してみよう！",
     "subject": "力学",
     "type": "実験",
     "launchUrl": "https://ukprograming.github.io/Video-Motion-Track/",
@@ -11,16 +11,25 @@
   {
     "id": "waveform-simulator",
     "title": "直線上の波の合成シミュレーション",
-    "description": "波の重ね合わせや反射など、直線状の波のようすを再現できます。",
+    "description": "波の重ね合わせや反射など、波の様子を見てみよう！",
     "subject": "波動",
     "type": "シミュレーション",
     "launchUrl": "https://ukprograming.github.io/waveform-simulator/",
     "screenshot": "./assets/screenshots/waveform-simulator.png"
   },
   {
+    "id": "Fizeau-experiment",
+    "title": "フィゾーの実験",
+    "description": "フィゾーの実験の全体像を把握しよう！",
+    "subject": "波動",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/Fizeau-experiment/",
+    "screenshot": "./assets/screenshots/Fizeau-experiment.png"
+  },
+  {
     "id": "Young-s-double-slit-experiment",
     "title": "ヤングの実験シミュレーター",
-    "description": "パラメーターを動かしたときの干渉縞の変化をシミュレーションできます。",
+    "description": "パラメーターを動かしたときの干渉縞の変化をシミュレーションしてみよう！",
     "subject": "波動",
     "type": "シミュレーション",
     "launchUrl": "./apps/Young-s-double-slit-experiment/index.html",
@@ -29,7 +38,7 @@
   {
     "id": "Motion-of-charged-particles",
     "title": "電場・磁場中の荷電粒子シミュレーション",
-    "description": "電場や磁場中を運動する荷電粒子の運動をシミュレーションできます。",
+    "description": "電場や磁場中を運動する荷電粒子の運動をシミュレーションしてみよう！",
     "subject": "電磁気",
     "type": "シミュレーション",
     "launchUrl": "https://ukprograming.github.io/Motion-of-charged-particles/",
