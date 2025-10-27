@@ -3,11 +3,13 @@
 <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>アプリ一覧</title>
+  <title>授業用アプリ一覧</title>
 
+  <!-- Fonts & Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <script>
     tailwind.config = {
@@ -42,11 +44,12 @@
 
 <body class="bg-background-light dark:bg-background-dark font-sans text-gray-800 dark:text-gray-200">
 <div class="relative flex min-h-screen w-full flex-col">
-  <!-- ヘッダー -->
+
+  <!-- Header -->
   <header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-gray-700 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-sm px-4 sm:px-6 lg:px-8 h-16">
     <div class="flex items-center gap-4">
       <span class="material-symbols-outlined text-primary text-3xl">science</span>
-      <h2 class="text-gray-900 dark:text-white text-xl font-bold tracking-tight">Physics App Lab</h2>
+      <h2 class="text-gray-900 dark:text-white text-xl font-bold tracking-tight">物理アプリライブラリ</h2>
     </div>
 
     <nav class="hidden md:flex items-center gap-6">
@@ -59,38 +62,39 @@
     </button>
   </header>
 
-  <!-- メイン -->
+  <!-- Main -->
   <main class="flex-grow px-4 sm:px-6 lg:px-8 py-10">
     <div class="max-w-7xl mx-auto">
-      <!-- タイトルと説明 -->
+
+      <!-- Title / Intro / Filters -->
       <div class="flex flex-col gap-8 mb-10">
         <div>
-          <h1 class="text-gray-900 dark:text-white text-3xl sm:text-4xl font-bold tracking-tight">アプリ一覧</h1>
+          <h1 class="text-gray-900 dark:text-white text-3xl sm:text-4xl font-bold tracking-tight">授業用アプリ一覧</h1>
           <p class="text-gray-600 dark:text-gray-400 text-base sm:text-lg mt-2">
             物理の授業で使えるインタラクティブなWebアプリ集です。
           </p>
         </div>
 
-        <!-- フィルター -->
         <div class="flex flex-col gap-6">
 
-          <!-- 分野フィルター -->
+          <!-- Subject Filter -->
           <div class="flex flex-col sm:flex-row sm:items-center gap-4">
             <h3 class="text-gray-800 dark:text-gray-200 text-base font-bold whitespace-nowrap">分野フィルター:</h3>
             <div class="flex gap-2 flex-wrap" id="subject-filters">
+              <!-- data-subject の値と apps.json の "subject" を一致させること -->
               <button data-subject="力学" class="flex h-9 items-center justify-center rounded-full bg-primary/20 px-4 text-primary text-sm font-medium transition-colors">力学</button>
-              <button data-subject="熱" class="flex h-9 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 text-sm font-medium transition-colors">熱</button>
+              <button data-subject="熱・気体" class="flex h-9 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 text-sm font-medium transition-colors">熱・気体</button>
               <button data-subject="波動" class="flex h-9 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 text-sm font-medium transition-colors">波動</button>
               <button data-subject="電磁気" class="flex h-9 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 text-sm font-medium transition-colors">電磁気</button>
-              <button data-subject="熱・気体" class="flex h-9 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 text-sm font-medium transition-colors">熱・気体</button>
               <button data-subject="原子" class="flex h-9 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 text-sm font-medium transition-colors">原子</button>
             </div>
           </div>
 
-          <!-- 種類フィルター -->
+          <!-- Type Filter -->
           <div class="flex flex-col sm:flex-row sm:items-center gap-4">
             <h3 class="text-gray-800 dark:text-gray-200 text-base font-bold whitespace-nowrap">種類フィルター:</h3>
             <div class="flex gap-2 flex-wrap" id="type-filters">
+              <!-- data-type の値と apps.json の "type" を一致させること -->
               <button data-type="実験" class="flex h-9 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 text-sm font-medium transition-colors">実験アプリ</button>
               <button data-type="シミュレーション" class="flex h-9 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 text-sm font-medium transition-colors">シミュレーションアプリ</button>
             </div>
@@ -99,14 +103,14 @@
         </div>
       </div>
 
-      <!-- アプリカードグリッド -->
+      <!-- Cards -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8" id="app-card-grid">
-        <!-- JSでapps.jsonから生成 -->
+        <!-- JSでdata/apps.jsonから生成される -->
       </div>
     </div>
   </main>
 
-  <!-- フッター -->
+  <!-- Footer -->
   <footer class="mt-auto bg-gray-100 dark:bg-gray-900">
     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center">
       <p class="text-gray-500 dark:text-gray-400 text-sm">© 2025 Kohei Ushiroda</p>
@@ -115,11 +119,17 @@
 </div>
 
 <script>
+  // アプリデータ全体
   let allApps = [];
-  let activeSubject = null; // "力学"など
-  let activeType = null;    // "実験" or "シミュレーション"
+  // 現在のフィルタ状態
+  let activeSubject = null; // ex. "力学"
+  let activeType = null;    // ex. "実験" or "シミュレーション"
 
-  // JSONを読み込む
+  // Tailwind用クラス（選択中/非選択）
+  const activeFilterClass   = "flex h-9 items-center justify-center rounded-full bg-primary/20 px-4 text-primary text-sm font-medium transition-colors";
+  const inactiveFilterClass = "flex h-9 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 text-sm font-medium transition-colors";
+
+  // JSONロード
   fetch('./data/apps.json')
     .then(res => res.json())
     .then(data => {
@@ -133,34 +143,63 @@
     const grid = document.getElementById('app-card-grid');
     grid.innerHTML = '';
 
+    // フィルタ適用
     const filtered = allApps.filter(app => {
       const okSubject = activeSubject ? app.subject === activeSubject : true;
       const okType    = activeType    ? app.type === activeType       : true;
       return okSubject && okType;
     });
 
+    // 生成
     filtered.forEach(app => {
       const card = document.createElement('div');
       card.className = "flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300";
 
       card.innerHTML = `
-        <div class="p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <div class="w-16 h-16 bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
-                 style="background-image: url('${app.iconImage}');"></div>
-            <h3 class="text-gray-900 dark:text-white text-lg font-bold flex-1">${app.title}</h3>
+        <div class="p-6 flex flex-col gap-4">
+
+          <!-- タイトル -->
+          <h3 class="text-gray-900 dark:text-white text-lg font-bold">
+            ${app.title}
+          </h3>
+
+          <!-- スクリーンショット -->
+          <div class="w-full aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+            <img
+              src="${app.screenshot}"
+              alt="${app.title} の画面"
+              class="w-full h-full object-cover"
+            />
           </div>
-          <p class="text-gray-600 dark:text-gray-400 text-sm mb-4 leading-relaxed">${app.description}</p>
+
+          <!-- 説明 -->
+          <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+            ${app.description}
+          </p>
+
+          <!-- タグ -->
           <div class="flex gap-2 flex-wrap">
             <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-1 rounded-full">${app.subject}</span>
             <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-1 rounded-full">${app.type}</span>
           </div>
         </div>
+
+        <!-- ボタン -->
         <div class="mt-auto p-4 bg-gray-50 dark:bg-gray-800/50 flex gap-3">
-          <a href="${app.launchUrl}" target="_blank" rel="noopener noreferrer"
-            class="flex-1 flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold hover:bg-primary/90 transition-colors">起動</a>
-          <a href="${app.detailUrl}"
-            class="flex-1 flex items-center justify-center rounded-lg h-10 px-4 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-sm font-bold hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">詳細</a>
+          <a
+            href="${app.launchUrl}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex-1 flex items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold hover:bg-primary/90 transition-colors"
+          >
+            起動
+          </a>
+          <a
+            href="${app.detailUrl}"
+            class="flex-1 flex items-center justify-center rounded-lg h-10 px-4 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-sm font-bold hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+          >
+            詳細
+          </a>
         </div>
       `;
 
@@ -168,16 +207,31 @@
     });
   }
 
-  // フィルター関連
+  // フィルタボタンの見た目を更新
+  function highlightFilters() {
+    document.querySelectorAll('[data-subject]').forEach(btn => {
+      const val = btn.getAttribute('data-subject');
+      btn.className = (activeSubject === val) ? activeFilterClass : inactiveFilterClass;
+    });
+
+    document.querySelectorAll('[data-type]').forEach(btn => {
+      const val = btn.getAttribute('data-type');
+      btn.className = (activeType === val) ? activeFilterClass : inactiveFilterClass;
+    });
+  }
+
+  // フィルタボタンを押したとき
   function toggleFilter(e) {
     const btn = e.currentTarget;
     const subject = btn.getAttribute('data-subject');
-    const type = btn.getAttribute('data-type');
+    const type    = btn.getAttribute('data-type');
 
     if (subject !== null) {
+      // 同じボタンをもう一回押したら解除
       activeSubject = (activeSubject === subject) ? null : subject;
     }
     if (type !== null) {
+      // 同じボタンをもう一回押したら解除
       activeType = (activeType === type) ? null : type;
     }
 
@@ -185,21 +239,7 @@
     highlightFilters();
   }
 
-  function highlightFilters() {
-    const activeClass = "flex h-9 items-center justify-center rounded-full bg-primary/20 px-4 text-primary text-sm font-medium transition-colors";
-    const inactiveClass = "flex h-9 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 text-sm font-medium transition-colors";
-
-    document.querySelectorAll('[data-subject]').forEach(btn => {
-      const val = btn.getAttribute('data-subject');
-      btn.className = (activeSubject === val) ? activeClass : inactiveClass;
-    });
-
-    document.querySelectorAll('[data-type]').forEach(btn => {
-      const val = btn.getAttribute('data-type');
-      btn.className = (activeType === val) ? activeClass : inactiveClass;
-    });
-  }
-
+  // 初期化
   window.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('[data-subject], [data-type]').forEach(btn => {
       btn.addEventListener('click', toggleFilter);
