@@ -6,17 +6,15 @@
     "subject": "波動",
     "type": "シミュレーション",
     "launchUrl": "./apps/Young-s-double-slit-experiment/index.html",
-    "detailUrl": "#",
     "screenshot": "./assets/screenshots/Young-s-double-slit-experiment.png"
   },
   {
-    "id": "ohms-law-lab",
-    "title": "オームの法則ラボ",
-    "description": "簡単な回路における電圧、電流、抵抗の関係を探求します。",
-    "subject": "電磁気",
+    "id": "Video-Motion-Track",
+    "title": "動画運動解析",
+    "description": "撮影した動画をアップロードし、運動を追跡できます。",
+    "subject": "力学",
     "type": "実験",
-    "launchUrl": "./apps/ohms-law-lab/index.html",
-    "detailUrl": "#",
-    "screenshot": "./assets/screenshots/ohms-law-lab.png"
+    "launchUrl": "https://ukprograming.github.io/Video-Motion-Track/",
+    "screenshot": "./assets/screenshots/Video-Motion-Track.png"
   }
 ]
