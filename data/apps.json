@@ -1,13 +1,13 @@
 [
   {
-    "id": "projectile-sim",
-    "title": "放物運動シミュレーター",
-    "description": "様々なパラメータを調整しながら、重力下での物体の軌跡を視覚的に確認できます。",
-    "subject": "力学",
+    "id": "Young-s-double-slit-experiment",
+    "title": "ヤングの実験シミュレーター",
+    "description": "パラメーターを動かしたときの干渉縞の変化をシミュレーションできます。",
+    "subject": "波動",
     "type": "シミュレーション",
-    "launchUrl": "./apps/projectile-sim/index.html",
+    "launchUrl": "./apps/Young-s-double-slit-experiment/index.html",
     "detailUrl": "#",
-    "screenshot": "./assets/screenshots/projectile-sim.png"
+    "screenshot": "./assets/screenshots/Young-s-double-slit-experiment.png"
   },
   {
     "id": "ohms-law-lab",
