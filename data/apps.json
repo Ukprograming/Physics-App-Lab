@@ -1,14 +1,5 @@
 [
   {
-    "id": "Young-s-double-slit-experiment",
-    "title": "ヤングの実験シミュレーター",
-    "description": "パラメーターを動かしたときの干渉縞の変化をシミュレーションできます。",
-    "subject": "波動",
-    "type": "シミュレーション",
-    "launchUrl": "./apps/Young-s-double-slit-experiment/index.html",
-    "screenshot": "./assets/screenshots/Young-s-double-slit-experiment.png"
-  },
-  {
     "id": "Video-Motion-Track",
     "title": "動画運動解析",
     "description": "撮影した動画をアップロードし、運動を追跡できます。",
@@ -16,5 +7,23 @@
     "type": "実験",
     "launchUrl": "https://ukprograming.github.io/Video-Motion-Track/",
     "screenshot": "./assets/screenshots/Video-Motion-Track.png"
+  },
+    {
+    "id": "waveform-simulator",
+    "title": "直線上の波の合成シミュレーション",
+    "description": "撮影した動画をアップロードし、運動を追跡できます。",
+    "subject": "波動",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/waveform-simulator/",
+    "screenshot": "./assets/screenshots/waveform-simulator.png"
+  },
+  {
+    "id": "Young-s-double-slit-experiment",
+    "title": "ヤングの実験シミュレーター",
+    "description": "パラメーターを動かしたときの干渉縞の変化をシミュレーションできます。",
+    "subject": "波動",
+    "type": "シミュレーション",
+    "launchUrl": "./apps/Young-s-double-slit-experiment/index.html",
+    "screenshot": "./assets/screenshots/Young-s-double-slit-experiment.png"
   }
 ]
