@@ -18,6 +18,15 @@
     "screenshot": "./assets/screenshots/Video-Motion-Track.png"
   },
   {
+    "id": "T_logger02",
+    "title": "温度ロガー（DS18B20）",
+    "description": "液体の温度変化を測定してみよう！",
+    "subject": "熱・気体",
+    "type": "実験",
+    "launchUrl": "https://ukprograming.github.io/T_logger02/",
+    "screenshot": "./assets/screenshots/T_logger02.png"
+  },
+  {
     "id": "waveform-simulator",
     "title": "直線上の波の合成シミュレーション",
     "description": "波の重ね合わせや反射など、波の様子を見てみよう！",
