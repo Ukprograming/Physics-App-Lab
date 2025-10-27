@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html class="light" lang="ja">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Physics App Lab</title>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#137fec",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101922",
+          },
+          fontFamily: {
+            "display": ["Work Sans", "Noto Sans JP", "Open Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "0.75rem",
+            "xl": "1rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    .card-hover {
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    }
+  </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-100">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+  <header class="sticky top-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-sm shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center gap-4 text-gray-800 dark:text-white">
+          <div class="flex-shrink-0">
+            <svg class="h-8 w-8 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_6_535)">
+                <path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill="currentColor" fill-rule="evenodd"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_6_535"><rect fill="white" height="48" width="48"/></clipPath>
+              </defs>
+            </svg>
+          </div>
+          <h2 class="text-lg font-bold leading-tight">Physics App Lab</h2>
+        </div>
+        <nav class="hidden md:flex items-center gap-8">
+          <a class="text-primary text-sm font-bold" href="./index.html">Home</a>
+          <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium" href="./apps.html">Apps</a>
+          <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary text-sm font-medium" href="./support.html">Support</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1">
+    <!-- Hero -->
+    <section class="relative">
+      <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 text-center">
+        <h1 class="text-4xl font-black tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
+          <span class="block">高校物理のための</span>
+          <span class="block text-primary">Web実験・シミュレーション集</span>
+        </h1>
+        <p class="mt-3 max-w-md mx-auto text-base text-gray-500 dark:text-gray-400 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+          ブラウザだけで動く、授業で使える物理実験ツール
+        </p>
+      </div>
+    </section>
+
+    <!-- カテゴリ (静的セクション / 必要に応じて後で自動化も可) -->
+    <section class="bg-white dark:bg-background-dark py-16 sm:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 dark:text-white mb-12">カテゴリ</h2>
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <!-- カテゴリカード例：力学 -->
+          <div class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+            <div class="flex-shrink-0">
+              <img class="h-48 w-full object-cover" alt="力学" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBh2FnK4Xq4mXMw_FCjggsyUwBtjZq4fTchSuYxRmks0FyT1Qa0ITFrD124IVdfeOPzKfrBKwwhh2upYDWBXfL12Ihs0BJsLN49voHUCSH-zdxr23vWk84WRbVYiDMxKQs9bvj4arg1OwkZCRU2IvRDqluPaY1Udl3MtAtAIgDZgXx3lkKKA8SDrOSI3e-EHLih5unMezik7LSCZB4KHpD5Tz_hE86aP-gDwg5HMaVYsQFx1NsFVV1BMj32y5UrQ6uApoHmUibxkYNF"/>
+            </div>
+            <div class="p-6">
+              <p class="text-xl font-semibold text-gray-900 dark:text-white">力学</p>
+              <p class="mt-3 text-base text-gray-500 dark:text-gray-400">物体の運動とエネルギー</p>
+            </div>
+          </div>
+
+          <!-- 波動 -->
+          <div class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+            <div class="flex-shrink-0">
+              <img class="h-48 w-full object-cover" alt="波動" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKD5yph10srdDLW6rf2lBFqvC9TvytZn-r2sztXAKHdHUiTcEtCnaVkxY4kt7JBwgYZsTc_DEM-Jtl-xmC5rUCGdxVVuDkYKqDjEcl1CK5meN5CaeQzNri7HMg8Wc0uiRKCULSyOQk1T3itUlLemTQ8bac5GAtkW69aLfTRnoZLsRrBUnxGXTtxrI3ET_5FHL2YjVSrztgfKsnZJEiuBsIVop46wITzpsONU6JIw6aCXhbNed2GdzeZp3WxrqeQe-Ld4mYirs0LMQ5"/>
+            </div>
+            <div class="p-6">
+              <p class="text-xl font-semibold text-gray-900 dark:text-white">波動</p>
+              <p class="mt-3 text-base text-gray-500 dark:text-gray-400">波の性質と干渉</p>
+            </div>
+          </div>
+
+          <!-- 電磁気 -->
+          <div class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+            <div class="flex-shrink-0">
+              <img class="h-48 w-full object-cover" alt="電磁気" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYwXrvSU2O1TZvHpMEXswp7PnTo56AW3Sb8z_Ufi7Ty9jWsViiFdPcPbfP_iskQoXm1OpxjK_8TScy42wUwUS-EXmx0GGgbclzhHNcZ57A_aOOY80dDZsCUVwM2a_fYJ4orkrt6uMG7AXIIzb0JFQh60HymCpP2m2trlXU83KWF3_TDsBUSxp_xnxRbPZDhj4ZVj1AscC4uBuFS_I1EyrI6A0_RC9mJ4HUaxp1cE_8EeUDLGnfpZgKpJBHvNhVmoBLc9SWKWtwLheR"/>
+            </div>
+            <div class="p-6">
+              <p class="text-xl font-semibold text-gray-900 dark:text-white">電磁気</p>
+              <p class="mt-3 text-base text-gray-500 dark:text-gray-400">電場と磁場</p>
+            </div>
+          </div>
+
+          <!-- 気体・熱 -->
+          <div class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+            <div class="flex-shrink-0">
+              <img class="h-48 w-full object-cover" alt="気体・熱" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIWff-XCvSO2FpDRBemtjdpWj31Tk3SNXbOL6UbciXFeyBFcwe3pkY0mjamlS39_aqJSO21iBhJbOTw3eZpmGfCkKAYlHN9iyT77e9iTsWn4GLIWsFP2_aQ-dDJ6sbcVkmrF-nps8iNiCfdFCuVwaSkNNXysF7v8wVIuP1qpPiXU8HPtyORbqXjm7_Yj5iaDeFF_xQO1xiPHfg1KRUZsbIK3bKRhJ8VgsdkFVtgZcAzYFVL-jWKCw6f8GhDaEAJGwM9qcta5i8QTsT"/>
+            </div>
+            <div class="p-6">
+              <p class="text-xl font-semibold text-gray-900 dark:text-white">気体・熱</p>
+              <p class="mt-3 text-base text-gray-500 dark:text-gray-400">理想気体と熱力学</p>
+            </div>
+          </div>
+
+          <!-- その他 -->
+          <div class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+            <div class="flex-shrink-0">
+              <img class="h-48 w-full object-cover" alt="その他" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDviaCoO5cEVbGdjC7vAbioqMAI1lL5VKdUaK_mqzSQSRXVz6wpLhlXLxM2Rjhnam2916sFFwABq8Y1ie7CxgkEhE06gUqVtd2RtOBpmMiQPDWc1DkOR88KQyecryPlqiSzNmMta3569R1rkpm3o6pfsCQAdAS3T-SHPbQ1sv_KFFCPzAwKbbnUT8xnt9A9bS2TrI9WBGGvBqatKjY7nRMH5j8USxPfqc3Yz1kpbhItp_gjK8FnjL4DHyfeOC8xN1HzrAa_ZqsWgiJI"/>
+            </div>
+            <div class="p-6">
+              <p class="text-xl font-semibold text-gray-900 dark:text-white">その他</p>
+              <p class="mt-3 text-base text-gray-500 dark:text-gray-400">その他の物理現象</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 最新の更新情報 -->
+    <section class="bg-background-light dark:bg-background-dark py-16 sm:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 dark:text-white mb-12">
+          最新の更新情報
+        </h2>
+        <div class="space-y-8" id="news-list">
+          <!-- JSでnews.jsonから挿入 -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white dark:bg-gray-800">
+    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+      <p class="text-center text-sm text-gray-400 dark:text-gray-500">
+        © 2025 Kohei Ushiroda
+      </p>
+    </div>
+  </footer>
+</div>
+
+<script>
+  // 最新の更新情報を読み込んで挿入
+  fetch('./data/news.json')
+    .then(res => res.json())
+    .then(items => {
+      const container = document.getElementById('news-list');
+      container.innerHTML = ''; // 念のため初期化
+      items.forEach(item => {
+        const card = document.createElement('div');
+        card.className = "p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md flex items-center space-x-4";
+
+        card.innerHTML = `
+          <div class="flex-shrink-0">
+            <span class="material-symbols-outlined text-primary text-3xl">${item.icon}</span>
+          </div>
+          <div>
+            <p class="text-sm text-gray-500 dark:text-gray-400">${item.date}</p>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">${item.title}</h3>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    })
+    .catch(err => {
+      console.error('news load error', err);
+    });
+</script>
+
+</body>
+</html>
