@@ -9,6 +9,15 @@
     "screenshot": "./assets/screenshots/Video-Motion-Track.png"
   },
   {
+    "id": "RailTrack-Simulator",
+    "title": "RailTrack Simulator",
+    "description": "レール上の物体の運動の様子をグラフで考えてみよう！",
+    "subject": "力学",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/RailTrack-Simulator/",
+    "screenshot": "./assets/screenshots/RailTrack-Simulator.png"
+  },
+  {
     "id": "distance_50Hz_va",
     "title": "距離センサーVL53L0X Live Plot",
     "description": "赤外線センサーによって最大50Hzで距離を測定できます。",
