@@ -42,38 +42,34 @@
     /* ヒーロー見出しの日本語タイトル専用 */
     .hero-main-title {
       white-space: nowrap;           /* 強制的に改行しない */
-      line-height: 1.2;              /* ちょい詰めて締まって見せる */
-      font-weight: 900;              /* 太めでヒーロー感は維持 */
+      line-height: 1.2;
+      font-weight: 900;
 
-      /* デフォルト (最も狭い画面想定) */
-      font-size: 1.25rem;            /* = text-xl 相当 */
+      /* 最も狭い画面 */
+      font-size: 1.25rem;            /* ~ text-xl */
     }
 
-    /* 画面幅 >= 640px (sm:) */
-    @media (min-width: 640px) {
+    @media (min-width: 640px) {      /* sm: */
       .hero-main-title {
-        font-size: 1.5rem;           /* = text-2xl */
+        font-size: 1.5rem;           /* ~ text-2xl */
       }
     }
 
-    /* 画面幅 >= 768px (md:) */
-    @media (min-width: 768px) {
+    @media (min-width: 768px) {      /* md: */
       .hero-main-title {
-        font-size: 1.875rem;         /* = text-3xl */
+        font-size: 1.875rem;         /* ~ text-3xl */
       }
     }
 
-    /* 画面幅 >= 1024px (lg:) */
-    @media (min-width: 1024px) {
+    @media (min-width: 1024px) {     /* lg: */
       .hero-main-title {
-        font-size: 2rem;             /* やや大きめだけど入るサイズに調整 */
+        font-size: 2rem;
       }
     }
 
-    /* 画面幅 >= 1280px (xl:) */
-    @media (min-width: 1280px) {
+    @media (min-width: 1280px) {     /* xl: */
       .hero-main-title {
-        font-size: 2.25rem;          /* = text-4xl 相当、横幅にまだ余裕がある場合 */
+        font-size: 2.25rem;          /* ~ text-4xl */
       }
     }
   </style>
@@ -83,32 +79,31 @@
 <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
   <header class="sticky top-0 z-50 flex items-center justify-between border-b border-solid border-gray-200 dark:border-gray-700 bg-white/80 dark:bg-background-dark/80 backdrop-blur-sm px-4 sm:px-6 lg:px-8 h-16 shadow-sm">
     <div class="flex items-center gap-3">
-      <!-- アイコン or ロゴ -->
+      <!-- ロゴ -->
       <div class="flex-shrink-0 text-primary">
         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
           <path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z"/>
         </svg>
       </div>
-  
+
       <!-- サイトタイトル -->
       <h1 class="text-gray-900 dark:text-white text-sm sm:text-base font-bold leading-tight tracking-tight">
         Physics App Lab
       </h1>
     </div>
-  
-    <!-- ナビゲーション（PC表示） -->
+
+    <!-- ナビ -->
     <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
       <a class="nav-link-home text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary" href="./index.html">Home</a>
       <a class="nav-link-apps text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary" href="./apps.html">Apps</a>
       <a class="nav-link-support text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary" href="./support.html">Support</a>
     </nav>
-  
-    <!-- モバイルメニューのトリガー（必要ならそのうち展開） -->
+
+    <!-- (未実装) モバイルメニュー -->
     <button class="md:hidden flex items-center justify-center p-2 rounded-lg bg-gray-100 dark:bg-gray-800">
       <span class="material-symbols-outlined text-gray-800 dark:text-gray-200">menu</span>
     </button>
   </header>
-
 
   <main class="flex-1">
     <!-- Hero -->
@@ -132,10 +127,11 @@
     <section class="bg-white dark:bg-background-dark py-16 sm:py-24">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 dark:text-white mb-12">カテゴリ</h2>
+
         <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 
           <!-- 力学 -->
-          <div class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+          <a href="./apps.html?subject=力学" class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
             <div class="flex-shrink-0">
               <img class="h-48 w-full object-cover" alt="力学" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBh2FnK4Xq4mXMw_FCjggsyUwBtjZq4fTchSuYxRmks0FyT1Qa0ITFrD124IVdfeOPzKfrBKwwhh2upYDWBXfL12Ihs0BJsLN49voHUCSH-zdxr23vWk84WRbVYiDMxKQs9bvj4arg1OwkZCRU2IvRDqluPaY1Udl3MtAtAIgDZgXx3lkKKA8SDrOSI3e-EHLih5unMezik7LSCZB4KHpD5Tz_hE86aP-gDwg5HMaVYsQFx1NsFVV1BMj32y5UrQ6uApoHmUibxkYNF"/>
             </div>
@@ -143,10 +139,10 @@
               <p class="text-xl font-semibold text-gray-900 dark:text-white">力学</p>
               <p class="mt-3 text-base text-gray-500 dark:text-gray-400">物体の運動とエネルギー</p>
             </div>
-          </div>
+          </a>
 
           <!-- 波動 -->
-          <div class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+          <a href="./apps.html?subject=波動" class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
             <div class="flex-shrink-0">
               <img class="h-48 w-full object-cover" alt="波動" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKD5yph10srdDLW6rf2lBFqvC9TvytZn-r2sztXAKHdHUiTcEtCnaVkxY4kt7JBwgYZsTc_DEM-Jtl-xmC5rUCGdxVVuDkYKqDjEcl1CK5meN5CaeQzNri7HMg8Wc0uiRKCULSyOQk1T3itUlLemTQ8bac5GAtkW69aLfTRnoZLsRrBUnxGXTtxrI3ET_5FHL2YjVSrztgfKsnZJEiuBsIVop46wITzpsONU6JIw6aCXhbNed2GdzeZp3WxrqeQe-Ld4mYirs0LMQ5"/>
             </div>
@@ -154,40 +150,40 @@
               <p class="text-xl font-semibold text-gray-900 dark:text-white">波動</p>
               <p class="mt-3 text-base text-gray-500 dark:text-gray-400">波の性質と干渉</p>
             </div>
-          </div>
+          </a>
 
           <!-- 電磁気 -->
-          <div class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+          <a href="./apps.html?subject=電磁気" class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
             <div class="flex-shrink-0">
-              <img class="h-48 w-full object-cover" alt="電磁気" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYwXrvSU2O1TZvHpMEXswp7PnTo56AW3Sb8z_Ufi7Ty9jWsViiFdPcPbfP_iskQoXm1OpxjK_8TScy42wUwUS-EXmx0GGgbclzhHNcZ57A_aOOY80dDZsCUVwM2a_fYJ4orkrt6uMG7AXIIzb0JFQh60HymCpP2m2trlXU83KWF3_TDsBUSxp_xnxRbPZDhj4ZVj1AscC4uBuFS_I1EyrI6A0_RC9mJ4HUaxp1cE_8EeUDLGnfpZgKpJBHvNhVmoBLc9SWKWtwLheR"/>
+              <img class="h-48 w-full object-cover" alt="電磁気" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYwXrvSU2O1TZvHpMEXswp7PnTo56AW3Sb8z_Ufi7Ty9jWsViiFdPcPbfP_iskQoXm1Opxj_8TScy42wUwUS-EXmx0GGgbclzhHNcZ57A_aOOY80dDZsCUVwM2a_fYJ4orkrt6uMG7AXIIzb0JFQh60HymCpP2m2trlXU83KWF3_TDsBUSxp_xnxRbPZDhj4ZVj1AscC4uBuFS_I1EyrI6A0_RC9mJ4HUaxp1cE_8EeUDLGnfpZgKpJBHvNhVmoBLc9SWKWtwLheR"/>
             </div>
             <div class="p-6">
               <p class="text-xl font-semibold text-gray-900 dark:text-white">電磁気</p>
               <p class="mt-3 text-base text-gray-500 dark:text-gray-400">電場と磁場</p>
             </div>
-          </div>
+          </a>
 
-          <!-- 気体・熱 -->
-          <div class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+          <!-- 熱・気体 -->
+          <a href="./apps.html?subject=熱・気体" class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
             <div class="flex-shrink-0">
-              <img class="h-48 w-full object-cover" alt="気体・熱" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIWff-XCvSO2FpDRBemtjdpWj31Tk3SNXbOL6UbciXFeyBFcwe3pkY0mjamlS39_aqJSO21iBhJbOTw3eZpmGfCkKAYlHN9iyT77e9iTsWn4GLIWsFP2_aQ-dDJ6sbcVkmrF-nps8iNiCfdFCuVwaSkNNXysF7v8wVIuP1qpPiXU8HPtyORbqXjm7_Yj5iaDeFF_xQO1xiPHfg1KRUZsbIK3bKRhJ8VgsdkFVtgZcAzYFVL-jWKCw6f8GhDaEAJGwM9qcta5i8QTsT"/>
+              <img class="h-48 w-full object-cover" alt="熱・気体" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIWff-XCvSO2FpDRBemtjdpWj31Tk3SNXbOL6UbciXFeyBFcwe3pkY0mjamlS39_aqJSO21iBhJbOTw3eZpmGfCkKAYlHN9iyT77e9iTsWn4GLIWsFP2_aQ-dDJ6sbcVkmrF-nps8iNiCfdFCuVwaSkNNXysF7v8wVIuP1qpPiXU8HPtyORbqXjm7_Yj5iaDeFF_xQO1xiPHfg1KRUZsbIK3bKRhJ8VgsdkFVtgZcAzYFVL-jWKCw6f8GhDaEAJGwM9qcta5i8QTsT"/>
             </div>
             <div class="p-6">
-              <p class="text-xl font-semibold text-gray-900 dark:text-white">気体・熱</p>
+              <p class="text-xl font-semibold text-gray-900 dark:text-white">熱・気体</p>
               <p class="mt-3 text-base text-gray-500 dark:text-gray-400">理想気体と熱力学</p>
             </div>
-          </div>
+          </a>
 
-          <!-- その他 -->
-          <div class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+          <!-- 原子（旧「その他」） -->
+          <a href="./apps.html?subject=原子" class="flex flex-col bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
             <div class="flex-shrink-0">
-              <img class="h-48 w-full object-cover" alt="その他" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDviaCoO5cEVbGdjC7vAbioqMAI1lL5VKdUaK_mqzSQSRXVz6wpLhlXLxM2Rjhnam2916sFFwABq8Y1ie7CxgkEhE06gUqVtd2RtOBpmMiQPDWc1DkOR88KQyecryPlqiSzNmMta3569R1rkpm3o6pfsCQAdAS3T-SHPbQ1sv_KFFCPzAwKbbnUT8xnt9A9bS2TrI9WBGGvBqatKjY7nRMH5j8USxPfqc3Yz1kpbhItp_gjK8FnjL4DHyfeOC8xN1HzrAa_ZqsWgiJI"/>
+              <img class="h-48 w-full object-cover" alt="原子" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDviaCoO5cEVbGdjC7vAbioqMAI1lL5VKdUaK_mqzSQSRXVz6wpLhlXLxM2Rjhnam2916sFFwABq8Y1ie7CxgkEhE06gUqVtd2RtOBpmMiQPDWc1DkOR88KQyecryPlqiSzNmMta3569R1rkpm3o6pfsCQAdAS3T-SHPbQ1sv_KFFCPzAwKbbnUT8xnt9A9bS2TrI9WBGGvBqatKjY7nRMH5j8USxPfqc3Yz1kpbhItp_gjK8FnjL4DHyfeOC8xN1HzrAa_ZqsWgiJI"/>
             </div>
             <div class="p-6">
-              <p class="text-xl font-semibold text-gray-900 dark:text-white">その他</p>
-              <p class="mt-3 text-base text-gray-500 dark:text-gray-400">その他の物理現象</p>
+              <p class="text-xl font-semibold text-gray-900 dark:text-white">原子</p>
+              <p class="mt-3 text-base text-gray-500 dark:text-gray-400">原子・量子の現象</p>
             </div>
-          </div>
+          </a>
 
         </div>
       </div>
@@ -221,7 +217,7 @@
     .then(res => res.json())
     .then(items => {
       const container = document.getElementById('news-list');
-      container.innerHTML = ''; // 念のため初期化
+      container.innerHTML = '';
       items.forEach(item => {
         const card = document.createElement('div');
         card.className = "p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md flex items-start space-x-4";
