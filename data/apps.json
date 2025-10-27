@@ -8,10 +8,10 @@
     "launchUrl": "https://ukprograming.github.io/Video-Motion-Track/",
     "screenshot": "./assets/screenshots/Video-Motion-Track.png"
   },
-    {
+  {
     "id": "waveform-simulator",
     "title": "直線上の波の合成シミュレーション",
-    "description": "撮影した動画をアップロードし、運動を追跡できます。",
+    "description": "波の重ね合わせや反射など、直線状の波のようすを再現できます。",
     "subject": "波動",
     "type": "シミュレーション",
     "launchUrl": "https://ukprograming.github.io/waveform-simulator/",
@@ -25,5 +25,14 @@
     "type": "シミュレーション",
     "launchUrl": "./apps/Young-s-double-slit-experiment/index.html",
     "screenshot": "./assets/screenshots/Young-s-double-slit-experiment.png"
+  },
+  {
+    "id": "Motion-of-charged-particles",
+    "title": "電場・磁場中の荷電粒子シミュレーション",
+    "description": "電場や磁場中を運動する荷電粒子の運動をシミュレーションできます。",
+    "subject": "電磁気",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/Motion-of-charged-particles/",
+    "screenshot": "./assets/screenshots/Motion-of-charged-particles.png"
   }
 ]
