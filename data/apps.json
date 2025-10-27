@@ -20,7 +20,7 @@
   {
     "id": "distance_50Hz_va",
     "title": "距離センサーVL53L0X Live Plot",
-    "description": "赤外線センサーによって最大50Hzで距離を測定できます。",
+    "description": "赤外線センサーで距離を測定してみよう！（※専用装置が必要です）",
     "subject": "力学",
     "type": "実験",
     "launchUrl": "https://ukprograming.github.io/distance_50Hz_va/",
@@ -29,7 +29,7 @@
   {
     "id": "T_logger02",
     "title": "温度ロガー（DS18B20）",
-    "description": "液体の温度変化を測定してみよう！",
+    "description": "液体の温度変化を測定してみよう！（※専用装置が必要です）",
     "subject": "熱・気体",
     "type": "実験",
     "launchUrl": "https://ukprograming.github.io/T_logger02/",
