@@ -5,7 +5,10 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>サポート・お問い合わせ</title>
 
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  <!-- Fonts & Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 
@@ -40,56 +43,60 @@
 
 <body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
 <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
-  <!-- header -->
+
+  <!-- 共通ヘッダー -->
   <header class="sticky top-0 z-50 flex items-center justify-between border-b border-solid border-gray-200 dark:border-gray-700 bg-white/80 dark:bg-background-dark/80 backdrop-blur-sm px-4 sm:px-6 lg:px-8 h-16 shadow-sm">
     <div class="flex items-center gap-3">
-      <!-- アイコン or ロゴ -->
+      <!-- ロゴ -->
       <div class="flex-shrink-0 text-primary">
         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
           <path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z"/>
         </svg>
       </div>
-  
+
       <!-- サイトタイトル -->
       <h1 class="text-gray-900 dark:text-white text-sm sm:text-base font-bold leading-tight tracking-tight">
-        Physics App Lab
+        高校物理のためのWeb実験・シミュレーション集
       </h1>
     </div>
-  
-    <!-- ナビゲーション（PC表示） -->
+
+    <!-- ナビ（PC表示） -->
     <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
       <a class="nav-link-home text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary" href="./index.html">Home</a>
       <a class="nav-link-apps text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary" href="./apps.html">Apps</a>
       <a class="nav-link-support text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary" href="./support.html">Support</a>
     </nav>
-  
-    <!-- モバイルメニューのトリガー（必要ならそのうち展開） -->
+
+    <!-- モバイルメニュー（中身は未実装） -->
     <button class="md:hidden flex items-center justify-center p-2 rounded-lg bg-gray-100 dark:bg-gray-800">
       <span class="material-symbols-outlined text-gray-800 dark:text-gray-200">menu</span>
     </button>
   </header>
 
-
+  <!-- メイン -->
   <main class="flex-1">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
       <div class="flex flex-col gap-12 sm:gap-16">
 
-        <!-- 免責・安全 -->
+        <!-- 免責・安全について -->
         <section>
           <div class="flex flex-wrap justify-between gap-3 pb-4">
-            <p class="text-3xl sm:text-4xl font-black leading-tight tracking-[-0.033em] min-w-72">
+            <p class="text-text-light dark:text-text-dark text-3xl sm:text-4xl font-black leading-tight tracking-[-0.033em] min-w-72">
               免責・安全について
             </p>
           </div>
+
           <div class="border-t border-border-light dark:border-border-dark pt-6 leading-relaxed text-base">
             <p>
               本サイトで公開しているアプリケーションは、高等学校での授業・学習活動を目的として設計されています。
               個人情報（生徒名・端末固有IDなど）を収集・保存することはありません。
             </p>
+
             <p class="mt-4">
               実験系アプリを使用する際は、機器の取り扱い・高温部・強い磁場・レーザー光などの安全管理を指導者の責任で行ってください。
               本サイトの提供者は、機材の破損や怪我等の責任を負いません。
             </p>
+
             <p class="mt-4">
               動作環境は主にChromebook / Chrome系ブラウザ / 一部iPadを想定しています。
               学校ネットワークの制限などにより、接続やデータ保存が正常に行えない場合があります。
@@ -100,26 +107,35 @@
         <!-- よくある質問 -->
         <section>
           <div class="flex flex-wrap justify-between gap-3 pb-4">
-            <h2 class="text-2xl sm:text-3xl font-bold leading-tight tracking-[-0.015em]">
+            <h2 class="text-text-light dark:text-text-dark text-2xl sm:text-3xl font-bold leading-tight tracking-[-0.015em]">
               よくある質問 (FAQ)
             </h2>
           </div>
+
           <div class="border-t border-border-light dark:border-border-dark pt-6 space-y-6 text-base leading-relaxed">
             <div>
-              <p class="font-semibold text-text-light dark:text-text-dark">Q. Bluetooth / シリアル接続ができません。</p>
+              <p class="font-semibold text-text-light dark:text-text-dark">
+                Q. Bluetooth / シリアル接続ができません。
+              </p>
               <p class="text-gray-600 dark:text-gray-400 mt-1">
                 ブラウザに権限を許可する必要があります。接続時に表示されるダイアログで、対象デバイスを選択してください。
                 学校のセキュリティ設定によってはブロックされる場合があります。
               </p>
             </div>
+
             <div>
-              <p class="font-semibold text-text-light dark:text-text-dark">Q. CSVを開いたら文字化けしました。</p>
+              <p class="font-semibold text-text-light dark:text-text-dark">
+                Q. CSVを開いたら文字化けしました。
+              </p>
               <p class="text-gray-600 dark:text-gray-400 mt-1">
                 文字コードの影響です。ExcelではなくGoogleスプレッドシート等で「UTF-8」を指定してインポートすると改善します。
               </p>
             </div>
+
             <div>
-              <p class="font-semibold text-text-light dark:text-text-dark">Q. 計測データはどこに保存されますか？</p>
+              <p class="font-semibold text-text-light dark:text-text-dark">
+                Q. 計測データはどこに保存されますか？
+              </p>
               <p class="text-gray-600 dark:text-gray-400 mt-1">
                 基本的にはブラウザ内で一時的に保持し、必要に応じてCSVとしてダウンロードします。
                 サーバーに自動送信されることはありません。
@@ -128,29 +144,58 @@
           </div>
         </section>
 
-        <!-- 問い合わせ -->
+        <!-- お問い合わせ / フィードバック -->
         <section>
           <div class="flex flex-wrap justify-between gap-3 pb-4">
-            <h2 class="text-2xl sm:text-3xl font-bold leading-tight tracking-[-0.015em]">
-              お問い合わせ
+            <h2 class="text-text-light dark:text-text-dark text-2xl sm:text-3xl font-bold leading-tight tracking-[-0.015em]">
+              お問い合わせ・ご意見 / ご感想
             </h2>
           </div>
-          <div class="border-t border-border-light dark:border-border-dark pt-6">
-            <a class="group flex items-center gap-4 bg-transparent p-4 -m-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-               href="mailto:contact@koheiushiroda.com">
-              <div class="text-primary flex items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 shrink-0 size-16">
-                <span class="material-symbols-outlined" style="font-size: 36px;">mail</span>
+
+          <div class="border-t border-border-light dark:border-border-dark pt-6 space-y-6 text-base leading-relaxed">
+            <p class="text-text-light dark:text-text-dark">
+              動作に関する質問や不具合の報告だけでなく、
+              「授業で使ってみた感想」「生徒の反応」「こういう機能がほしい」といった
+              フィードバックもぜひお寄せください。
+            </p>
+
+            <p class="text-text-light dark:text-text-dark">
+              以下のフォームから送信いただいた内容は、教材の改善や今後の追加開発の参考にします。
+              返信が必要な場合は、フォーム内でご連絡先（メールアドレスなど）をご記入ください。
+            </p>
+
+            <div class="bg-gray-50 dark:bg-gray-800/50 border border-border-light dark:border-border-dark rounded-lg p-4 sm:p-6 flex flex-col gap-4">
+              <div class="flex items-start gap-4">
+                <div class="text-primary flex items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 shrink-0 size-12 sm:size-14">
+                  <span class="material-symbols-outlined" style="font-size:32px;">outgoing_mail</span>
+                </div>
+                <div class="flex-1">
+                  <p class="text-base font-medium text-text-light dark:text-text-dark leading-normal">
+                    問い合わせ・ご意見フォーム
+                  </p>
+                  <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed mt-1">
+                    下記のボタンからフォームを開いて送信してください。
+                  </p>
+                </div>
               </div>
-              <div class="flex-1">
-                <p class="text-base font-medium leading-normal text-text-light dark:text-text-dark">
-                  contact@koheiushiroda.com
-                </p>
-                <p class="text-sm text-gray-500 dark:text-gray-400">メールを送信</p>
+
+              <div>
+                <a
+                  href="https://forms.gle/Rpu1qTcfmwrA8MS39"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center justify-center rounded-lg bg-primary text-white text-sm font-bold h-11 px-5 hover:bg-primary/90 transition-colors w-full sm:w-auto"
+                >
+                  フォームを開く
+                  <span class="material-symbols-outlined ml-2" style="font-size:20px;">open_in_new</span>
+                </a>
               </div>
-              <span class="material-symbols-outlined text-gray-400 dark:text-gray-500 group-hover:text-primary dark:group-hover:text-primary transition-colors">
-                arrow_forward
-              </span>
-            </a>
+
+              <p class="text-xs text-gray-500 dark:text-gray-500 leading-relaxed">
+                ※メールアドレスをサイト上に直接公開していないため、迷惑メールや個人情報の拡散を防ぐことができます。<br/>
+                ※入力いただいた内容は、授業改善・教材開発の参考以外の目的では使用しません。
+              </p>
+            </div>
           </div>
         </section>
 
@@ -158,6 +203,7 @@
     </div>
   </main>
 
+  <!-- フッター -->
   <footer class="w-full border-t border-border-light dark:border-border-dark mt-16">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="py-6 text-center">
@@ -166,5 +212,24 @@
     </div>
   </footer>
 </div>
+
+<!-- 現在のページをナビでハイライトする -->
+<script>
+  const path = location.pathname.replace(/\\/+/g, "/").toLowerCase();
+  function activate(selector) {
+    const el = document.querySelector(selector);
+    if (!el) return;
+    el.classList.remove("text-gray-600","dark:text-gray-300");
+    el.classList.add("text-primary","font-bold");
+  }
+  if (path.endsWith("index.html") || path === "/" || path === "") {
+    activate(".nav-link-home");
+  } else if (path.endsWith("apps.html")) {
+    activate(".nav-link-apps");
+  } else if (path.endsWith("support.html")) {
+    activate(".nav-link-support");
+  }
+</script>
+
 </body>
 </html>
