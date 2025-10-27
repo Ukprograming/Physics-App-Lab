@@ -9,6 +9,15 @@
     "screenshot": "./assets/screenshots/Video-Motion-Track.png"
   },
   {
+    "id": "distance_50Hz_va",
+    "title": "距離センサーVL53L0X Live Plot",
+    "description": "赤外線センサーによって最大50Hzで距離を測定できます。",
+    "subject": "力学",
+    "type": "実験",
+    "launchUrl": "https://ukprograming.github.io/distance_50Hz_va/",
+    "screenshot": "./assets/screenshots/Video-Motion-Track.png"
+  },
+  {
     "id": "waveform-simulator",
     "title": "直線上の波の合成シミュレーション",
     "description": "波の重ね合わせや反射など、波の様子を見てみよう！",
