@@ -7,7 +7,7 @@
     "type": "シミュレーション",
     "launchUrl": "./apps/projectile-sim/index.html",
     "detailUrl": "#",
-    "iconImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuD2x2VJ0NrZnXjBhHtVfyC_ZQsk7SE7JPQHjF7USNE8_bH76qKMzwLAbz8jKXCETKdJ8ysjNnYXRyIQEo_UZe3-WKBCjiaS97gsdDgwssQ1sckEL9FZRUXt2A7jJ_Lq8DXsuX4CoGZ-xpQUO85hcTHDfoShwl97Z2a0pKZNByq6cwpf4_8lDuBw8S3zEZiyllpxVowuy3qV7AW4qfnTEtQILKkxYOp8OiC0Uh3v7_jF0UdDzNf9R5QzAIyvO6M-Ffp2yHECTbbNfXuW"
+    "screenshot": "./assets/screenshots/projectile-sim.png"
   },
   {
     "id": "ohms-law-lab",
@@ -17,36 +17,6 @@
     "type": "実験",
     "launchUrl": "./apps/ohms-law-lab/index.html",
     "detailUrl": "#",
-    "iconImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuBB9mGze7xMr1aTgG5_8Ap6LwLrgISHfizTsK7z6o9O6N_vkN3bH7lCQ7bOkbuZXASJKIbKINwvfQxelICEcJfX4m4avsJCyxeEGsmv_wEndR9REcJmPkkLjAokOzVDEZvJtTBFC1JluEDXgr3ai6wI-BqwOz6cnQAwNT5sTy_qmbIGlOogRdTqLRPuVAc3TM13FlLoVScgBSQFF3nC5klqqhBXvEF6zK7NjEb-itDR98qCHHWWbWtfQJu7u4ZLWb37Itlqxe2NGwGh"
-  },
-  {
-    "id": "wave-interference",
-    "title": "波の干渉ビジュアライザー",
-    "description": "このシミュレーションで、波がどのように相互作用し、干渉縞を形成するかを観察します。",
-    "subject": "波動",
-    "type": "シミュレーション",
-    "launchUrl": "./apps/wave-interference/index.html",
-    "detailUrl": "#",
-    "iconImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuB98xYX9814QOfOPoQeqEffyYiXojev39BxPRx9vkQdMn4W39mHPDlQf1aB2ouA4qwzBaU9EbIwpXTmAO5Zr2mqMDG_5De6gUfpW9RmVtZDMolt15mTbGPKwaDhbqtNj3FCniZoCJasCDyxhC04evcbTp_-tgclsdxxPCUWvHb5kOnOzwBNUHZ5uvJRGXaRFb5549SAcNz0M8CbJjkMvHpe5inVahj3Lcio9kWkpxC5wghXLzps9X35kLHNojXgT5VV9Q7enQ8cvxlS"
-  },
-  {
-    "id": "gas-properties",
-    "title": "気体の性質シミュレーション",
-    "description": "気体の圧力、体積、温度の関係を調べます。",
-    "subject": "熱・気体",
-    "type": "シミュレーション",
-    "launchUrl": "./apps/gas-properties/index.html",
-    "detailUrl": "#",
-    "iconImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuApPGSbpn7cMtuffZ9SA5BoPGv0Aip_FflhWU1guzWAXCLakwCTZ1O1s1oCFLos26uMaB7QlNhHAzn97Dz9IHE8lRR_JIzq7V5ID5PMG60jKnvLd8pMLpiUzg_7QZg5VtqkyblGNtwBLZd-s-61L6n-WvNWKdbwSXmaggmRSpFX2oJxX-HZtR6bWrhr168dAmjOMF8g-P-V8BUvB4Tb5tmORvB4cjQmCES9_xRJB9RJYaG2dp9qAKXLNrNYOJJhhGH4jEhN0ITCc0ZN"
-  },
-  {
-    "id": "photoelectric-demo",
-    "title": "光電効果デモ",
-    "description": "物質に光を当てたときの電子の放出を観察します。",
-    "subject": "原子",
-    "type": "実験",
-    "launchUrl": "./apps/photoelectric-demo/index.html",
-    "detailUrl": "#",
-    "iconImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuDpE7maVcMkS8JpzTuVZtZmS1U4pSUipwCTvfnD08hnCy30L3dlJ6FZdXptTHJ2okg4PykUxFtyt4C8OYby3Sut6TjP53HLg9NxxDJRIFz09xbEOqw9jqkrsWa504kYKI35WENz8on3QtsV5BPKVtSNv1yvlIz3uws-t-osPlLU-WAGnBAZJCMzenlmOUMofC-I1bJY72FPF6Y0Ol6O9ouIXE4M9iVoiZMzP-zO0kaRA3TfGwnMkSfNAAGcK-BdZ8uUMRh6-Bv4-xgo"
+    "screenshot": "./assets/screenshots/ohms-law-lab.png"
   }
 ]
