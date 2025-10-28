@@ -70,5 +70,14 @@
     "type": "シミュレーション",
     "launchUrl": "https://ukprograming.github.io/Motion-of-charged-particles/",
     "screenshot": "./assets/screenshots/Motion-of-charged-particles.png"
+  },
+  {
+    "id": "Electric-potential-energy-and-kinetic-energy",
+    "title": "電位と荷電粒子の運動シミュレーション",
+    "description": "V-xグラフと荷電粒子の運動を関連付けて理解しよう！",
+    "subject": "電磁気",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/Electric-potential-energy-and-kinetic-energy/",
+    "screenshot": "./assets/screenshots/Electric-potential-energy-and-kinetic-energy.png"
   }
 ]
