@@ -79,5 +79,14 @@
     "type": "シミュレーション",
     "launchUrl": "https://ukprograming.github.io/Electric-potential-energy-and-kinetic-energy/",
     "screenshot": "./assets/screenshots/Electric-potential-energy-and-kinetic-energy.png"
+  },
+  {
+    "id": "circuit-builder",
+    "title": "電気回路図ビルダー",
+    "description": "いろいろな回路素子を使って回路図を書いてみよう！",
+    "subject": "電磁気",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/circuit-builder/",
+    "screenshot": "./assets/screenshots/circuit-builder.png"
   }
 ]
