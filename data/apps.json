@@ -88,5 +88,14 @@
     "type": "シミュレーション",
     "launchUrl": "https://ukprograming.github.io/circuit-builder/",
     "screenshot": "./assets/screenshots/circuit-builder.png"
+  },
+  {
+    "id": "Electric-potential-energy-and-kinetic-energy",
+    "title": "一様な磁場中の荷電粒子の運動（３D）",
+    "description": "一様な磁場中での荷電粒子の運動を３Dで見てみよう！",
+    "subject": "電磁気",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/Electric-potential-energy-and-kinetic-energy/",
+    "screenshot": "./assets/screenshots/Electric-potential-energy-and-kinetic-energy.png"
   }
 ]
