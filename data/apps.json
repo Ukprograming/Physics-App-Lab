@@ -95,7 +95,7 @@
     "description": "一様な磁場中での荷電粒子の運動を３Dで見てみよう！",
     "subject": "電磁気",
     "type": "シミュレーション",
-    "launchUrl": "https://ukprograming.github.io/Electric-potential-energy-and-kinetic-energy/",
-    "screenshot": "./assets/screenshots/Electric-potential-energy-and-kinetic-energy.png"
+    "launchUrl": "https://ukprograming.github.io/Motion-of-a-charged-particle-in-a-uniform-magnetic-field/",
+    "screenshot": "./assets/screenshots/Motion-of-a-charged-particle-in-a-uniform-magnetic-field.png"
   }
 ]
