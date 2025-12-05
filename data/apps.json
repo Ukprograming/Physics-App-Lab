@@ -8,6 +8,15 @@
     "launchUrl": "https://ukprograming.github.io/Video-Motion-Track/",
     "screenshot": "./assets/screenshots/Video-Motion-Track.png"
   },
+    {
+    "id": "relative-speed-simulation",
+    "title": "相対速度シミュレーション",
+    "description": "運動する観測者から運動する物体を見てみよう！",
+    "subject": "力学",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/relative-speed-simulation/",
+    "screenshot": "./assets/screenshots/relative-speed-simulation.png"
+  },
   {
     "id": "RailTrack-Simulator",
     "title": "RailTrack Simulator",
