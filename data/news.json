@@ -1,22 +1,22 @@
 [
   {
     "date": "2025-12-12",
-    "icon": "campaign",
+    "icon": "update",
     "title": "「波動」カテゴリに波のグラフの変換シミュレーションを追加しました。"
   },
   {
     "date": "2025-12-5",
-    "icon": "rocket_launch",
+    "icon": "build",
     "title": "「力学」カテゴリに相対速度シミュレーションを追加しました。"
   },
   {
     "date": "2025-11-4",
-    "icon": "science",
+    "icon": "Upload_File",
     "title": "「電磁気」カテゴリに一様な磁場中の荷電粒子の運動（３D）を追加しました。"
   },
   {
     "date": "2025-10-30",
-    "icon": "campaign",
+    "icon": "Celebration",
     "title": "「電磁気」カテゴリに電気回路図ビルダーを追加しました。"
   },
   {
