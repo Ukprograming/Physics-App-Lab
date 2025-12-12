@@ -45,6 +45,15 @@
     "screenshot": "./assets/screenshots/T_logger02.png"
   },
   {
+    "id": "Waveform-transformation",
+    "title": "波のグラフの変換",
+    "description": "波を表現するy-xグラフとy-tグラフを理解しよう！",
+    "subject": "波動",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/Waveform-transformation/",
+    "screenshot": "./assets/screenshots/Waveform-transformation.png"
+  },
+  {
     "id": "waveform-simulator",
     "title": "直線上の波の合成シミュレーション",
     "description": "波の重ね合わせや反射など、波の様子を見てみよう！",
