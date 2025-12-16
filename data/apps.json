@@ -115,5 +115,14 @@
     "type": "シミュレーション",
     "launchUrl": "https://ukprograming.github.io/Motion-of-a-charged-particle-in-a-uniform-magnetic-field/",
     "screenshot": "./assets/screenshots/Motion-of-a-charged-particle-in-a-uniform-magnetic-field.png"
+  },
+  {
+    "id": "half-life-simulator",
+    "title": "放射性崩壊（半減期）シミュレーション",
+    "description": "原子が崩壊していく様子を見てみよう！",
+    "subject": "原子",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/half-life-simulator/",
+    "screenshot": "./assets/screenshots/half-life-simulator.png"
   }
 ]
