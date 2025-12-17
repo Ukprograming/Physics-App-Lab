@@ -54,6 +54,15 @@
     "screenshot": "./assets/screenshots/Waveform-transformation.png"
   },
   {
+    "id": "Transverse-Longitudinal-Wave-Conversion-Simulation-Quiz",
+    "title": "横波⇔縦波変換シミュレーション＆クイズ",
+    "description": "横波と縦波の変換を理解しよう！",
+    "subject": "波動",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/Transverse-Longitudinal-Wave-Conversion-Simulation-Quiz/",
+    "screenshot": "./assets/screenshots/Transverse-Longitudinal-Wave-Conversion-Simulation-Quiz.png"
+  },
+  {
     "id": "waveform-simulator",
     "title": "直線上の波の合成シミュレーション",
     "description": "波の重ね合わせや反射など、波の様子を見てみよう！",
