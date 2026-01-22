@@ -72,6 +72,15 @@
     "screenshot": "./assets/screenshots/waveform-simulator.png"
   },
   {
+    "id": "What-does-the-pitch-of-a-sound-depend-on",
+    "title": "媒質境界面における波の伝わり方?",
+    "description": "異なる媒質に波が伝わるとき、振動数と波長のどちらが一定になるだろう？",
+    "subject": "波動",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.ioWhat-does-the-pitch-of-a-sound-depend-on/",
+    "screenshot": "./assets/screenshots/What-does-the-pitch-of-a-sound-depend-on.png"
+  },
+  {
     "id": "Fizeau-experiment",
     "title": "フィゾーの実験",
     "description": "フィゾーの実験の全体像を把握しよう！",
