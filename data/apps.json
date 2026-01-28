@@ -81,6 +81,15 @@
     "screenshot": "./assets/screenshots/What-does-the-pitch-of-a-sound-depend-on.png"
   },
   {
+    "id": "Standing-waves-on-strings",
+    "title": "弦に生じる定在波",
+    "description": "弦に特定の波長の定在波が生じる原理について考えてみよう！",
+    "subject": "波動",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/Standing-waves-on-strings/",
+    "screenshot": "./assets/screenshots/Standing-waves-on-strings.png"
+  },
+  {
     "id": "Fizeau-experiment",
     "title": "フィゾーの実験",
     "description": "フィゾーの実験の全体像を把握しよう！",
