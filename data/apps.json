@@ -81,6 +81,15 @@
     "screenshot": "./assets/screenshots/What-does-the-pitch-of-a-sound-depend-on.png"
   },
   {
+    "id": "Sound-source-oscilloscope",
+    "title": "音源＆オシロスコープアプリ",
+    "description": "様々な音を出してそれを分析してみよう！",
+    "subject": "波動",
+    "type": "実験",
+    "launchUrl": "https://ukprograming.github.io/Sound-source-oscilloscope/",
+    "screenshot": "./assets/screenshots/Sound-source-oscilloscope.png"
+  },
+  {
     "id": "Standing-waves-on-strings",
     "title": "弦に生じる定在波",
     "description": "弦に特定の波長の定在波が生じる原理について考えてみよう！",
