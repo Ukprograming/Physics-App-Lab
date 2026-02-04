@@ -90,6 +90,15 @@
     "screenshot": "./assets/screenshots/Standing-waves-on-strings.png"
   },
   {
+    "id": "Standing-waves-in-an-air-column",
+    "title": "気柱に生じる定在波",
+    "description": "気柱に特定の波長の定在波が生じる原理について考えてみよう！",
+    "subject": "波動",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/Standing-waves-in-an-air-column/",
+    "screenshot": "./assets/screenshots/Standing-waves-in-an-air-column.png"
+  },
+  {
     "id": "Fizeau-experiment",
     "title": "フィゾーの実験",
     "description": "フィゾーの実験の全体像を把握しよう！",
