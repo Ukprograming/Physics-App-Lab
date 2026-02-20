@@ -36,6 +36,15 @@
     "screenshot": "./assets/screenshots/Video-Motion-Track.png"
   },
   {
+    "id": "ma-F",
+    "title": "弾性力と物体の運動解析",
+    "description": "弾性力を受けた物体の運動を解析してみよう！",
+    "subject": "力学",
+    "type": "実験",
+    "launchUrl": "https://ukprograming.github.io/ma-F/",
+    "screenshot": "./assets/screenshots/ma-F.png"
+  },
+  {
     "id": "T_logger02",
     "title": "温度ロガー（DS18B20）",
     "description": "液体の温度変化を測定してみよう！（※専用装置が必要です）",
