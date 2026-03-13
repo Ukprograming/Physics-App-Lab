@@ -8,7 +8,16 @@
     "launchUrl": "https://ukprograming.github.io/Video-Motion-Track/",
     "screenshot": "./assets/screenshots/Video-Motion-Track.png"
   },
-    {
+  {
+    "id": "x-t-v-t",
+    "title": "直線運動グラフシミュレーター",
+    "description": "x-tグラフ・v-tグラフ・a-tグラフと物体の運動を関連付けて理解しよう！",
+    "subject": "力学",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/x-t-v-t/",
+    "screenshot": "./assets/screenshots/x-t-v-t.png"
+  },
+  {
     "id": "relative-speed-simulation",
     "title": "相対速度シミュレーション",
     "description": "運動する観測者から運動する物体を見てみよう！",
