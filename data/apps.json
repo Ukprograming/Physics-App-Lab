@@ -9,13 +9,13 @@
     "screenshot": "./assets/screenshots/Video-Motion-Track.png"
   },
   {
-    "id": "x-t-v-t",
+    "id": "x-t-v-t-a-t",
     "title": "直線運動グラフシミュレーター",
     "description": "x-tグラフ・v-tグラフ・a-tグラフと物体の運動を関連付けて理解しよう！",
     "subject": "力学",
     "type": "シミュレーション",
-    "launchUrl": "https://ukprograming.github.io/x-t-v-t/",
-    "screenshot": "./assets/screenshots/x-t-v-t.png"
+    "launchUrl": "https://ukprograming.github.io/x-t-v-t-a-t/",
+    "screenshot": "./assets/screenshots/x-t-v-t-a-t.png"
   },
   {
     "id": "relative-speed-simulation",
