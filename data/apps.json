@@ -27,6 +27,15 @@
     "screenshot": "./assets/screenshots/x-t-v-t-a-t.png"
   },
   {
+    "id": "resultant-velocity",
+    "title": "合成速度シミュレーション",
+    "description": "川の流れの中を進む船の速度を考えてみよう！",
+    "subject": "力学",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/resultant-velocity/",
+    "screenshot": "./assets/screenshots/resultant-velocity.png"
+  },
+  {
     "id": "relative-speed-simulation",
     "title": "相対速度シミュレーション",
     "description": "運動する観測者から運動する物体を見てみよう！",
