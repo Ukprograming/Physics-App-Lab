@@ -73,7 +73,7 @@
   },
   {
     "id": "conditions-for-equilibrium-of-moments",
-    "title": "力のモーメント",
+    "title": "回転バランスラボ",
     "description": "物体が回転しない条件を探索しよう！",
     "subject": "力学",
     "type": "シミュレーション",
