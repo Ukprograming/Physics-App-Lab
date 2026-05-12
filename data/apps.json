@@ -72,6 +72,15 @@
     "screenshot": "./assets/screenshots/ma-F.png"
   },
   {
+    "id": "conditions-for-equilibrium-of-moments",
+    "title": "力のモーメント",
+    "description": "物体が回転しない条件を探索しよう！",
+    "subject": "力学",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/conditions-for-equilibrium-of-moments/",
+    "screenshot": "./assets/screenshots/conditions-for-equilibrium-of-moments.png"
+  },
+  {
     "id": "T_logger02",
     "title": "温度ロガー（DS18B20）",
     "description": "液体の温度変化を測定してみよう！（※専用装置が必要です）",
