@@ -81,6 +81,15 @@
     "screenshot": "./assets/screenshots/conditions-for-equilibrium-of-moments.png"
   },
   {
+    "id": "sound-logger",
+    "title": "バウンド音ロガー",
+    "description": "ボールが跳ねる音を解析して反発係数を調べよう！",
+    "subject": "力学",
+    "type": "実験",
+    "launchUrl": "https://ukprograming.github.io/sound-logger/",
+    "screenshot": "./assets/screenshots/sound-logger.png"
+  },
+  {
     "id": "T_logger02",
     "title": "温度ロガー（DS18B20）",
     "description": "液体の温度変化を測定してみよう！（※専用装置が必要です）",
