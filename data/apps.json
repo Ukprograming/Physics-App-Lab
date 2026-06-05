@@ -90,6 +90,15 @@
     "screenshot": "./assets/screenshots/sound-logger.png"
   },
   {
+    "id": "centripetal-acceleration",
+    "title": "等速円運動と向心加速度",
+    "description": "等速円運動の加速度を考えよう！",
+    "subject": "力学",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/centripetal-acceleration/",
+    "screenshot": "./assets/screenshots/centripetal-acceleration.png"
+  },
+  {
     "id": "T_logger02",
     "title": "温度ロガー（DS18B20）",
     "description": "液体の温度変化を測定してみよう！（※専用装置が必要です）",
