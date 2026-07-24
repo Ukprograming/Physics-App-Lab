@@ -171,6 +171,15 @@
     "screenshot": "./assets/screenshots/Standing-waves-in-an-air-column.png"
   },
   {
+    "id": "Doppler-effect",
+    "title": "ドップラー効果",
+    "description": "ドップラー効果を測定しよう！",
+    "subject": "波動",
+    "type": "実験",
+    "launchUrl": "https://ukprograming.github.io/Doppler-effect/",
+    "screenshot": "./assets/screenshots/Doppler-effect.png"
+  },
+  {
     "id": "Fizeau-experiment",
     "title": "フィゾーの実験",
     "description": "フィゾーの実験の全体像を把握しよう！",
