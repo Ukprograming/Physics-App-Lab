@@ -72,6 +72,15 @@
     "screenshot": "./assets/screenshots/ma-F.png"
   },
   {
+    "id": "Constant-Speed-Lifter",
+    "title": "物体を等速で持ち上げるシミュレーション",
+    "description": "物体を等速で持ち上げるにはどのように力を加えればよいだろう？",
+    "subject": "力学",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/Constant-Speed-Lifter/",
+    "screenshot": "./assets/screenshots/Constant-Speed-Lifter.png"
+  },
+  {
     "id": "conditions-for-equilibrium-of-moments",
     "title": "回転バランスラボ",
     "description": "物体が回転しない条件を探索しよう！",
