@@ -198,6 +198,15 @@
     "screenshot": "./assets/screenshots/Fizeau-experiment.png"
   },
   {
+    "id": "Convex-lens-and-concave-lens",
+    "title": "凸レンズと凹レンズ",
+    "description": "光の経路と像の見え方について理解しよう！",
+    "subject": "波動",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/Convex-lens-and-concave-lens/",
+    "screenshot": "./assets/screenshots/Convex-lens-and-concave-lens.png"
+  },
+  {
     "id": "Young-s-double-slit-experiment",
     "title": "ヤングの実験シミュレーター",
     "description": "パラメーターを動かしたときの干渉縞の変化をシミュレーションしてみよう！",
