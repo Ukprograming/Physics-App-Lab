@@ -207,6 +207,15 @@
     "screenshot": "./assets/screenshots/Convex-lens-and-concave-lens.png"
   },
   {
+    "id": "Curve-mirror",
+    "title": "カーブミラー",
+    "description": "カーブミラーによって車はどのように見えるだろう？",
+    "subject": "波動",
+    "type": "シミュレーション",
+    "launchUrl": "https://ukprograming.github.io/Curve-mirror/",
+    "screenshot": "./assets/screenshots/Curve-mirror.png"
+  },
+  {
     "id": "Young-s-double-slit-experiment",
     "title": "ヤングの実験シミュレーター",
     "description": "パラメーターを動かしたときの干渉縞の変化をシミュレーションしてみよう！",
