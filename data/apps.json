@@ -221,7 +221,7 @@
     "description": "パラメーターを動かしたときの干渉縞の変化をシミュレーションしてみよう！",
     "subject": "波動",
     "type": "シミュレーション",
-    "launchUrl": "./apps/Young-s-double-slit-experiment/index.html",
+    "launchUrl": "https://ukprograming.github.io/Young-s-double-slit-experiment/",
     "screenshot": "./assets/screenshots/Young-s-double-slit-experiment.png"
   },
   {
